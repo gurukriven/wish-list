@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set the Requester to the currently logged in user for new Wish Item records. Users can change the field value.</description>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>AddPurchaseDetails</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   if(g_form.isNewRecord()){
+    g_form.setValue('requester',g_user.userID);
+  }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-26 20:01:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eb74f0d287b23010770bcaaf8bbb351b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AddPurchaseDetails</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Guru Wish List App" source="x_673229_guru_wish">88ea409687323010770bcaaf8bbb35e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guru Wish List App">88ea409687323010770bcaaf8bbb35e8</sys_scope>
+        <sys_update_name>sys_script_client_eb74f0d287b23010770bcaaf8bbb351b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-26 20:01:20</sys_updated_on>
+        <table>x_673229_guru_wish_wish_items</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Guru Wish List App">88ea409687323010770bcaaf8bbb35e8</application>
+        <file_path/>
+        <instance_id>11a1ed15db3ecc1091232f17d49619f2</instance_id>
+        <instance_name>dev99390</instance_name>
+        <name>sys_script_client_eb74f0d287b23010770bcaaf8bbb351b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Set the Requester to the currently logged in user for new Wish Item records. Users can change the field value.&lt;/description&gt;&lt;field&gt;sys_created_on&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;AddPurchaseDetails&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   if(g_form.isNewRecord()){
+    g_form.setValue('requester',g_user.userID);
+  }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-09-26 20:01:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;eb74f0d287b23010770bcaaf8bbb351b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;AddPurchaseDetails&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Guru Wish List App" source="x_673229_guru_wish"&gt;88ea409687323010770bcaaf8bbb35e8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Guru Wish List App"&gt;88ea409687323010770bcaaf8bbb35e8&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_eb74f0d287b23010770bcaaf8bbb351b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-09-26 20:01:20&lt;/sys_updated_on&gt;&lt;table&gt;x_673229_guru_wish_wish_items&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>830812347</payload_hash>
+        <record_name>AddPurchaseDetails</record_name>
+        <reverted_from/>
+        <source>c8ea409687323010770bcaaf8bbb35ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-26 20:01:20</sys_created_on>
+        <sys_id>53b470d287b23010770bcaaf8bbb3507</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c23b29d330000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-26 20:01:20</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>9bb470d263b230107b80e3bc39771506</update_guid>
+        <update_guid_history>9bb470d263b230107b80e3bc39771506:830812347</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-26 20:02:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>3c7424737dab448a8ee5054518eeb704</sys_id>
+        <sys_metadata>eb74f0d287b23010770bcaaf8bbb351b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AddPurchaseDetails</sys_name>
+        <sys_package display_value="Guru Wish List App" source="x_673229_guru_wish">88ea409687323010770bcaaf8bbb35e8</sys_package>
+        <sys_parent display_value="Wish Items">8790989a87323010770bcaaf8bbb35eb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Guru Wish List App">88ea409687323010770bcaaf8bbb35e8</sys_scope>
+        <sys_scope_delete display_value="">90bdf1d5584f45cc977f7535a0cc0110</sys_scope_delete>
+        <sys_update_name>sys_script_client_eb74f0d287b23010770bcaaf8bbb351b</sys_update_name>
+        <sys_update_version display_value="sys_script_client_eb74f0d287b23010770bcaaf8bbb351b">53b470d287b23010770bcaaf8bbb3507</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-26 20:02:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
