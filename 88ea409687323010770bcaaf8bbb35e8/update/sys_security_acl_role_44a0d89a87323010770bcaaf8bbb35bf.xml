@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-26 17:23:33</sys_created_on>
+        <sys_id>44a0d89a87323010770bcaaf8bbb35bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_673229_guru_wish_wish_items.x_673229_guru_wish.guru_wishlist_app_user_role</sys_name>
+        <sys_package display_value="Guru Wish List App" source="x_673229_guru_wish">88ea409687323010770bcaaf8bbb35e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guru Wish List App">88ea409687323010770bcaaf8bbb35e8</sys_scope>
+        <sys_security_acl display_value="x_673229_guru_wish_wish_items">c8a0545a87323010770bcaaf8bbb3531</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_44a0d89a87323010770bcaaf8bbb35bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-26 17:23:33</sys_updated_on>
+        <sys_user_role display_value="x_673229_guru_wish.guru_wishlist_app_user_role" name="x_673229_guru_wish.guru_wishlist_app_user_role">15fa041287323010770bcaaf8bbb3532</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
