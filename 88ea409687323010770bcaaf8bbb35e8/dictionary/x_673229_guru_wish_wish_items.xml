@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Wish Items" max_length="40" name="x_673229_guru_wish_wish_items" type="collection">
+    <element label="Wish Items" max_length="40" name="x_673229_guru_wish_wish_items" sizeclass="2" type="collection">
         <element attributes="edge_encryption_enabled=true" display="true" label="Item" max_length="125" name="item" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Quantity" max_length="40" name="quantity" type="integer"/>
